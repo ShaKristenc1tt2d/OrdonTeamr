@@ -1,2 +1,6 @@
-# 为APICloud定制的一款移动端验证框架，兼容PC，移动，平板等以浏览器为内核的平台。
-# 
+# [avalidate.js]：为跨平台表单验证而生，完美支持APICloud！
+
+QQ交流群：18863883
+
+## 什么是avalidate.js？
+
