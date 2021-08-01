@@ -2,8 +2,7 @@
 
 QQ交流群：18863883
 
-## 文档整理中
-
+## 教程地址：http://community.apicloud.com/bbs/forum.php?mod=viewthread&tid=17310&page=1&extra=#pid95308
 
 
 
