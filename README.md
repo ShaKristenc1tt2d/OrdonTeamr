@@ -257,6 +257,7 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 
 #### 1¡¢×Ô¶¨ÒåÑéÖ¤´íÎóÌáÊ¾£¬Ö÷ÒªÊÇ±àĞ´singleError·½·¨
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -293,9 +294,11 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
     </script>
 </body>
 </html>
-
+```
 
 #### 2¡¢Ã¿Ò»¸ö±íµ¥ÔªËØÑéÖ¤³É¹¦Ö®ºóÖ´ĞĞ×Ô¶¨Òåº¯Êı£¬Ö÷ÒªÊÇ±àĞ´singleSuccess·½·¨
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -336,9 +339,11 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
     </script>
 </body>
 </html>
-
+```
 
 #### 3¡¢ÔÚ±íµ¥ÑéÖ¤Ö®Ç°Ö´ĞĞ×Ô¶¨Òåº¯Êı£¬Ö÷ÒªÊÇ±àĞ´startCheck·½·¨
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -383,9 +388,11 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
     </script>
 </body>
 </html>
-
+```
 
 #### 4¡¢×Ô¶¨Òådata-rule±êÊ¶·û£¬±ÈÈçÑéÖ¤ÊÖ»ú»ò¹Ì»°£ºdata-rule="tm"   ±¾ÉíÊÇÃ»ÓĞÕâ¸ö±êÊ¶µÄ
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -422,13 +429,14 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
     </script>
 </body>
 </html>
-
+```
 
 
 ### 3£©»¹¿ÉÒÔÕâÑùÓÃ£¡
 
 #### 1¡¢±ÈÈçÅĞ¶ÏÁ½´ÎÃÜÂëÊäÈëÊÇ·ñÒ»Ñù£¬Ö÷ÒªÓÃµ½data-sync="Í¬²½µÄnameÃû³Æ"£¬Í¬²½ÑéÖ¤
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -463,10 +471,11 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
     </script>
 </body>
 </html>
-
+```
 
 #### 2¡¢Èç¹û²»Ìî£¬ÔòºöÂÔÑéÖ¤£¬Èç¹ûÌîĞ´ÔòÖ´ĞĞÑéÖ¤£¬Ö÷ÒªÓÃµ½data-haved="true"ÊôĞÔ
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -499,7 +508,7 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
     </script>
 </body>
 </html>
-
+```
 
 
 ¸ü¶àÀı×ÓÓÉÄãÀ´·¢ÏÖ£¡£¡£¡
