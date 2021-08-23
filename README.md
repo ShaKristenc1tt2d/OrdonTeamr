@@ -119,9 +119,9 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 
 
 
-##  ½éÉÜÁËÄÇÃ´¶à£¬ÄÇ¸ÃÈçºÎÔÚÏîÄ¿ÖÐÊ¹ÓÃÄØ£¿
+###  ½éÉÜÁËÄÇÃ´¶à£¬ÄÇ¸ÃÈçºÎÔÚÏîÄ¿ÖÐÊ¹ÓÃÄØ£¿
 
-### 1£©»ù±¾Ê¹ÓÃ
+#### 1£©»ù±¾Ê¹ÓÃ
 
 ```html
 <!DOCTYPE html>
@@ -248,9 +248,9 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 </html>
 ```
 
-### 2£©¸ß¼¶Ê¹ÓÃ
+#### 2£©¸ß¼¶Ê¹ÓÃ
 
-#### 1¡¢×Ô¶¨ÒåÑéÖ¤´íÎóÌáÊ¾£¬Ö÷ÒªÊÇ±àÐ´singleError·½·¨
+##### 1¡¢×Ô¶¨ÒåÑéÖ¤´íÎóÌáÊ¾£¬Ö÷ÒªÊÇ±àÐ´singleError·½·¨
 
 ```html
 <!DOCTYPE html>
@@ -291,7 +291,7 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 </html>
 ```
 
-#### 2¡¢Ã¿Ò»¸ö±íµ¥ÔªËØÑéÖ¤³É¹¦Ö®ºóÖ´ÐÐ×Ô¶¨Òåº¯Êý£¬Ö÷ÒªÊÇ±àÐ´singleSuccess·½·¨
+##### 2¡¢Ã¿Ò»¸ö±íµ¥ÔªËØÑéÖ¤³É¹¦Ö®ºóÖ´ÐÐ×Ô¶¨Òåº¯Êý£¬Ö÷ÒªÊÇ±àÐ´singleSuccess·½·¨
 
 ```html
 <!DOCTYPE html>
@@ -336,7 +336,7 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 </html>
 ```
 
-#### 3¡¢ÔÚ±íµ¥ÑéÖ¤Ö®Ç°Ö´ÐÐ×Ô¶¨Òåº¯Êý£¬Ö÷ÒªÊÇ±àÐ´startCheck·½·¨
+##### 3¡¢ÔÚ±íµ¥ÑéÖ¤Ö®Ç°Ö´ÐÐ×Ô¶¨Òåº¯Êý£¬Ö÷ÒªÊÇ±àÐ´startCheck·½·¨
 
 ```html
 <!DOCTYPE html>
@@ -385,7 +385,7 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 </html>
 ```
 
-#### 4¡¢×Ô¶¨Òådata-rule±êÊ¶·û£¬±ÈÈçÑéÖ¤ÊÖ»ú»ò¹Ì»°£ºdata-rule="tm"   ±¾ÉíÊÇÃ»ÓÐÕâ¸ö±êÊ¶µÄ
+##### 4¡¢×Ô¶¨Òådata-rule±êÊ¶·û£¬±ÈÈçÑéÖ¤ÊÖ»ú»ò¹Ì»°£ºdata-rule="tm"   ±¾ÉíÊÇÃ»ÓÐÕâ¸ö±êÊ¶µÄ
 
 ```html
 <!DOCTYPE html>
@@ -427,9 +427,9 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 ```
 
 
-### 3£©»¹¿ÉÒÔÕâÑùÓÃ£¡
+#### 3£©»¹¿ÉÒÔÕâÑùÓÃ£¡
 
-#### 1¡¢±ÈÈçÅÐ¶ÏÁ½´ÎÃÜÂëÊäÈëÊÇ·ñÒ»Ñù£¬Ö÷ÒªÓÃµ½data-sync="Í¬²½µÄnameÃû³Æ"£¬Í¬²½ÑéÖ¤
+##### 1¡¢±ÈÈçÅÐ¶ÏÁ½´ÎÃÜÂëÊäÈëÊÇ·ñÒ»Ñù£¬Ö÷ÒªÓÃµ½data-sync="Í¬²½µÄnameÃû³Æ"£¬Í¬²½ÑéÖ¤
 
 ```html
 <!DOCTYPE html>
@@ -468,7 +468,7 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 </html>
 ```
 
-#### 2¡¢Èç¹û²»Ìî£¬ÔòºöÂÔÑéÖ¤£¬Èç¹ûÌîÐ´ÔòÖ´ÐÐÑéÖ¤£¬Ö÷ÒªÓÃµ½data-haved="true"ÊôÐÔ
+##### 2¡¢Èç¹û²»Ìî£¬ÔòºöÂÔÑéÖ¤£¬Èç¹ûÌîÐ´ÔòÖ´ÐÐÑéÖ¤£¬Ö÷ÒªÓÃµ½data-haved="true"ÊôÐÔ
 
 ```html
 <!DOCTYPE html>
@@ -504,7 +504,6 @@ ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±
 </body>
 </html>
 ```
-
 
 ¸ü¶àÀý×ÓÓÉÄãÀ´·¢ÏÖ£¡£¡£¡
 
