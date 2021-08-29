@@ -29,17 +29,18 @@ availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示
 
 ### availdate.js自定义标签属性：
 
-#### 标签属性	属性描述
+```html
 * data-rule	必填，这个属性是整个验证插件的基础。注意：需要验证的插件必须填写该属性，但除了指定data-sync属性以外。
 * data-nullmsg	选填，当表单为空的时候提示信息。
 * data-errmsg	选填，当表单验证失败的时候提示信息。
 * data-sucmsg	选填，当表单执行成功的时候提示信息。
 * data-sync	选填，同步验证，一般用于密码的验证。比如，第一次输入密码之后，然后第二次密码需要和第一次输入密码进行同步验证。
 * data-haved	选填，跳过为空验证，只当有值的时候才会执行验证。
-
+```
 
 ### availdate.js内置默认验证规则：
 
+```html
 * "*"：	必填，不能为空。例子：data-rule="*"
 * "*6-16"：必填，不能为空，且必须是6到16个字符。例子：data-rule="*3-12"，data-rule="*5-10"。分别表示：必填，3到12个字符；必填，5到10个字符。
 * "n"：必填，不能为空，且必须是正整数。例子：data-rule="n"
@@ -60,16 +61,15 @@ availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示
 * "qq"：必填，不能为空，必须是qq号码。例子：data-rule="qq"
 * "idcard"：必填，不能为空，必须是身份证号码。例子：data-rule="idcard"
 * "time" ：必填，不能为空，必须是时间格式号码，如：10:23:60。例子：data-rule="time"
+```
 
 #### 还不够？
 
 如果上面的还不能满足你，不用担心，data-rule也支持万能的正则表达式，如：
 
 ```html
-
 data-rule="/\w{3,6}/i"    表示3-6位字符
 data-rule="/^\d$/"   只允许一个数字
-
 ```
 
 注意：如果data-rule传入的是正则表达式，则必须用 / / 包住。
@@ -84,7 +84,6 @@ ac.addRule({
 ```
 
 这样就可以通过 data-rule="tm" 来验证手机和固话了。
-
 
 ### availdate.js公开方法
 
