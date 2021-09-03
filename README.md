@@ -41,26 +41,26 @@ availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示
 ### availdate.js内置默认验证规则：
 
 ```html
-* "*"：	必填，不能为空。例子：data-rule="*"
-* "*6-16"：必填，不能为空，且必须是6到16个字符。例子：data-rule="*3-12"，data-rule="*5-10"。分别表示：必填，3到12个字符；必填，5到10个字符。
-* "n"：必填，不能为空，且必须是正整数。例子：data-rule="n"
-* "n6-16"：必填，不能为空，且必须是6到16个字符例子：data-rule="n3-12"
-* "s"：必填，不能为空，且不能包含特殊字符的字符串。例子：data-rule="s"
-* "s6-16"：必填，不能为空，且必须是6到16位的非包含特殊字符的字符串。例子：data-rule="s6-16"
-* "p"：必填，不能为空，且必须是正确的邮政编码。例子：data-rule="p"
-* "m"：必填，不能为空，且必须是正确的手机号码。例子：data-rule="m"
-* "e"：必填，不能为空，且必须是电子邮箱。例子：data-rule="e"
-* "url"：必填，不能为空，且必须是网址格式。例子：data-rule="url"
-* "date"：必填，不能为空，且必须是日期格式。例子：data-rule="date"
-* "zh"：必填，不能为空，且必须是中文。例子：data-rule="zh"
-* "dword"：必填，不能为空，且必须填写双字节字符。例子：data-rule="dword"
-* "money"：必填，不能为空，且必须是金额类型。例子：data-rule="money"
-* "ipv4"：必填，不能为空，且必须是IPv4地址。例子：data-rule="ipv4"
-* "ipv6"：必填，不能为空，且必须是IPv6地址。例子：data-rule="ipv6"
-* "num"：必填，不能为空，必须是数值类型，例如正整数，正浮点数，小数。例子：data-rule="num"
-* "qq"：必填，不能为空，必须是qq号码。例子：data-rule="qq"
-* "idcard"：必填，不能为空，必须是身份证号码。例子：data-rule="idcard"
-* "time" ：必填，不能为空，必须是时间格式号码，如：10:23:60。例子：data-rule="time"
+* "*"：              必填，不能为空。例子：data-rule="*"
+* "*6-16"：       必填，不能为空，且必须是6到16个字符。例子：data-rule="*3-12"，data-rule="*5-10"。分别表示：必填，3到12个字符；必填，5到10个字符。
+* "n"：             必填，不能为空，且必须是正整数。例子：data-rule="n"
+* "n6-16"：      必填，不能为空，且必须是6到16个字符例子：data-rule="n3-12"
+* "s"：              必填，不能为空，且不能包含特殊字符的字符串。例子：data-rule="s"
+* "s6-16"：       必填，不能为空，且必须是6到16位的非包含特殊字符的字符串。例子：data-rule="s6-16"
+* "p"：             必填，不能为空，且必须是正确的邮政编码。例子：data-rule="p"
+* "m"：            必填，不能为空，且必须是正确的手机号码。例子：data-rule="m"
+* "e"：             必填，不能为空，且必须是电子邮箱。例子：data-rule="e"
+* "url"：           必填，不能为空，且必须是网址格式。例子：data-rule="url"
+* "date"：        必填，不能为空，且必须是日期格式。例子：data-rule="date"
+* "zh"：           必填，不能为空，且必须是中文。例子：data-rule="zh"
+* "dword"：     必填，不能为空，且必须填写双字节字符。例子：data-rule="dword"
+* "money"：    必填，不能为空，且必须是金额类型。例子：data-rule="money"
+* "ipv4"：        必填，不能为空，且必须是IPv4地址。例子：data-rule="ipv4"
+* "ipv6"：        必填，不能为空，且必须是IPv6地址。例子：data-rule="ipv6"
+* "num"：       必填，不能为空，必须是数值类型，例如正整数，正浮点数，小数。例子：data-rule="num"
+* "qq"：          必填，不能为空，必须是qq号码。例子：data-rule="qq"
+* "idcard"：    必填，不能为空，必须是身份证号码。例子：data-rule="idcard"
+* "time" ：      必填，不能为空，必须是时间格式号码，如：10:23:60。例子：data-rule="time"
 ```
 
 #### 还不够？
@@ -69,7 +69,7 @@ availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示
 
 ```html
 data-rule="/\w{3,6}/i"    表示3-6位字符
-data-rule="/^\d$/"   只允许一个数字
+data-rule="/^\d$/"       只允许一个数字
 ```
 
 注意：如果data-rule传入的是正则表达式，则必须用 / / 包住。
