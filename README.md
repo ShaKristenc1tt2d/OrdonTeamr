@@ -87,8 +87,9 @@ ac.addRule({
 
 ### availdate.js公开方法
 
+*#### ac.form(params);	描述：所有需要验证的区域都需要调用这个方法
+
 ```html
-ac.form(params);	描述：所有需要验证的区域都需要调用这个方法
 params参数说明：
 {
     area: "body", // 需要验证的区域，支持标签名称，id，class选择器，推荐id或class
@@ -110,7 +111,10 @@ params参数说明：
 
     }
 }
-ac.addRule(params);	描述：拓展默认data-rule标识符，拓展之后，可直接使用标识符代表该正则表达式
+
+*#### ac.addRule(params);	描述：拓展默认data-rule标识符，拓展之后，可直接使用标识符代表该正则表达式
+
+```html
   params参数说明：
   {
       // 属性名称表示标识符，属性值表示正则表达式，可以设置多个。
