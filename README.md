@@ -87,7 +87,7 @@ ac.addRule({
 
 ### availdate.js公开方法
 
-*#### ac.form(params);	描述：所有需要验证的区域都需要调用这个方法
+#### ac.form(params);	描述：所有需要验证的区域都需要调用这个方法
 
 ```html
 params参数说明：
@@ -111,8 +111,9 @@ params参数说明：
 
     }
 }
+```
 
-*#### ac.addRule(params);	描述：拓展默认data-rule标识符，拓展之后，可直接使用标识符代表该正则表达式
+#### ac.addRule(params);	描述：拓展默认data-rule标识符，拓展之后，可直接使用标识符代表该正则表达式
 
 ```html
   params参数说明：
