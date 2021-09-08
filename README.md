@@ -1,6 +1,6 @@
-# [avalidate.js]：为APICloud表单验证而生，但不仅仅限于此！
+# [avalidate.js]：为[APICloud](http://www.apicloud.com/)表单验证而生，但不仅仅限于此！
 
-* APICloud是一个非常好的一个APP开发平台！网址：www.apicloud.com
+* [APICloud](http://www.apicloud.com/)是一个非常好的一个APP开发平台！[APICloud网址](http://www.apicloud.com/)
 
 ```html
 ### 2015年11月07日  availdate-1.0.1.js 更新细节：
@@ -13,7 +13,7 @@
 * [新增] 整个项目基础原型
 ```
 
-非常感谢流浪男版主带给我非常好的AUI（https://github.com/liulangnan/aui）布局框架，让我们的开发速度再一次的升华！但是，想更快的开发，更省代码吗？availdate.js能帮到你！
+非常感谢流浪男版主带给我非常好的[APICloud](http://www.auicss.com/)布局框架，让我们的开发速度再一次的升华！但是，想更快的开发，更省代码吗？availdate.js能帮到你！
 
 ## availdate.js是什么呢？
 
@@ -24,7 +24,7 @@ availdate.js是一个纯javascript编写的一个验证脚本插件，不依赖于任何第三方框架，直
 
 目前availdate.js处于第一个版本，本人花了3个多小时编写的，可能在使用过程成会出现遗漏或者未能考虑到的bug，请及时反馈，定当全力修复bug。
 
-APICloud会越来越美好，因为有他们，你们，我们的共同努力！让我们一起见证一个孩子的创世之路吧！
+[APICloud](http://www.apicloud.com/)会越来越美好，因为有他们，你们，我们的共同努力！让我们一起见证一个孩子的创世之路吧！
 
 
 ### availdate.js自定义标签属性：
@@ -513,8 +513,10 @@ params参数说明：
 
 更多例子由你来发现！！！
 
-availdate.js为APICloud而生，但不仅仅限于此！
+* availdate.js为[APICloud](http://www.apicloud.com/)而生，但不仅仅限于此！
 
-availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示例
+* availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示例
 
-QQ交流群：18863883
+* QQ交流群：18863883
+
+* 技术支持：[中山赢友网络科技有限公司](http://www.apicloud.com/)
