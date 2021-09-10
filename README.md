@@ -1,6 +1,6 @@
 # [avalidate.js]：为[APICloud](http://www.apicloud.com/)表单验证而生，但不仅仅限于此！
 
-* [APICloud](http://www.apicloud.com/)是一个非常好的一个APP开发平台！[APICloud网址](http://www.apicloud.com/)
+* [APICloud](http://www.apicloud.com/)是一个非常好的一个APP开发平台！[APICloud官网](http://www.apicloud.com/)
 
 ```html
 ### 2015年11月07日  availdate-1.0.1.js 更新细节：
@@ -511,11 +511,11 @@ params参数说明：
 </html>
 ```
 
-更多例子由你来发现！！！
+* 更多例子由你来发现！！！
 
 * availdate.js为[APICloud](http://www.apicloud.com/)而生，但不仅仅限于此！
 
-* availdate.js开源地址：http://git.oschina.net/winu.net/availdate.js，包含源码和示例
+* availdate.js开源地址：[Github](http://git.oschina.net/winu.net/availdate.js)
 
 * QQ交流群：18863883
 
