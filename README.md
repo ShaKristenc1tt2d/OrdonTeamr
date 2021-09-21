@@ -11,6 +11,7 @@
 
 ```html
 ### 2015年11月07日  availdate-1.0.1.js 更新细节：
+* [新增] 验证成功之后返回序列化对象
 * [新增] idcard 标识符，支持身份证验证
 * [新增] time 标识符，支持时间格式验证
 * [新增] tm 标识符，支持手机或固话的验证
@@ -118,8 +119,8 @@ params参数说明：
 
         alert(msg);
     },
-    endSuccess: function () {  // 全部验证成功执行函数
-
+    endSuccess: function (data) {  // 全部验证成功执行函数
+		// data 返回序列化的参数
     }
 }
 ```
@@ -255,8 +256,8 @@ params参数说明：
         ac.form({
             area: "#frm",   // 验证区域，支持标签，id，class，推荐使用id或者class
             btn: "#btn",     // 触发验证的按钮或者元素，支持标签，id，class，推荐使用id或者class
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！")
+            endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
@@ -298,8 +299,8 @@ params参数说明：
                 // 自定义弹窗格式###############
                 alert("我是自定义弹窗格式：错误消息：" + msg);
             },
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！");
+            endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
@@ -343,8 +344,8 @@ params参数说明：
                 // 验证单个成功之后提示信息
                 alert("我自己通过验证了！别人我不知道！");
             },
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！");
+            endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
@@ -392,8 +393,8 @@ params参数说明：
                 // 验证单个成功之后提示信息
                 alert("我自己通过验证了！别人我不知道！");
             },
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！");
+            endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
@@ -433,8 +434,8 @@ params参数说明：
         ac.form({
             area: "#frm",   // 验证区域，支持标签，id，class，推荐使用id或者class
             btn: "#btn",
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！");
+           endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
@@ -475,8 +476,8 @@ params参数说明：
         ac.form({
             area: "#frm",   // 验证区域，支持标签，id，class，推荐使用id或者class
             btn: "#btn",
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！");
+            endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
@@ -512,8 +513,8 @@ params参数说明：
         ac.form({
             area: "#frm",   // 验证区域，支持标签，id，class，推荐使用id或者class
             btn: "#btn",
-            endSuccess: function () {
-                alert("全部验证成功啦！！！！！！");
+            endSuccess: function (data) {
+                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
             }
         });
 
