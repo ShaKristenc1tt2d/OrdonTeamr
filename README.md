@@ -23,7 +23,7 @@
 * [新增] 整个项目基础原型
 ```
 
-非常感谢流浪男版主带给我非常好的[APICloud](http://www.auicss.com/)布局框架，让我们的开发速度再一次的升华！但是，想更快的开发，更省代码吗？availdate.js能帮到你！
+非常感谢流浪男版主带给我们非常好的[APICloud](http://www.auicss.com/)布局框架，让我们的开发速度再一次的升华！但是，想更快的开发，更省代码吗？availdate.js能帮到你！
 
 ## availdate.js是什么呢？
 
