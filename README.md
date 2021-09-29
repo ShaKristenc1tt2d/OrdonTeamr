@@ -8,6 +8,16 @@
 * [APICloud](http://www.apicloud.com/)是一个非常好的一个APP开发平台！[APICloud官网](http://www.apicloud.com/)
 * [论坛回帖地址](http://community.apicloud.com/bbs/forum.php?mod=viewthread&tid=17310&page=1&extra=#pid95308) 
 
+## 来先看看例子
+
+* [实例一](http://availdate.oschina.mopaasapp.com/)
+* [实例二](http://availdate.oschina.mopaasapp.com/demo2.html)
+* [实例三](http://availdate.oschina.mopaasapp.com/demo3.html)
+* [实例四](http://availdate.oschina.mopaasapp.com/demo4.html)
+* [实例五](http://availdate.oschina.mopaasapp.com/demo5.html)
+
+
+## 更新记录
 
 ```html
 ### 2015年11月07日  availdate-1.0.1.js 更新细节：
