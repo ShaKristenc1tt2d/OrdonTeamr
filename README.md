@@ -89,29 +89,27 @@ availdate.jsµÚÒ»¸ö°æ±¾ÊÇ±¾ÈË»¨ÁË3¸ö¶àĞ¡Ê±±àĞ´µÄ£¬¿ÉÄÜÔÚÊ¹ÓÃ¹ı³Ì³É»á³öÏÖÒÅÂ©»òÕßÎ
 
 Èç¹ûÉÏÃæµÄ»¹²»ÄÜÂú×ãÄã£¬²»ÓÃµ£ĞÄ£¬data-ruleÒ²Ö§³ÖÍòÄÜµÄÕıÔò±í´ïÊ½£¬Èç£º
 
-```html
-data-rule="/\w{3,6}/i"    ±íÊ¾3-6Î»×Ö·û
-data-rule="/^\d$/"       Ö»ÔÊĞíÒ»¸öÊı×Ö
-```
+`data-rule="/\w{3,6}/i"`    ±íÊ¾3-6Î»×Ö·û
+`data-rule="/^\d$/"`       Ö»ÔÊĞíÒ»¸öÊı×Ö
 
-×¢Òâ£ºÈç¹ûdata-rule´«ÈëµÄÊÇÕıÔò±í´ïÊ½£¬Ôò±ØĞëÓÃ / / °ü×¡¡£
+×¢Òâ£ºÈç¹û`data-rule`´«ÈëµÄÊÇÕıÔò±í´ïÊ½£¬Ôò±ØĞëÓÃ` / / `°ü×¡¡£
 
 ### ÎÒÏëºÍÄ¬ÈÏ±êÊ¶·ûÒ»Ñù£¬Ìæ´úÕıÔò±í´ïÊ½£¬ĞĞ²»ĞĞ£¿µ±È»ĞĞ£¡
 
-```html
+```
 ac.addRule({
             // Ö§³Ö¹Ì»°ºÍÊÖ»úµÄÑéÖ¤
             "tm": /(^[0-9]{3,4}\-[0-9]{3,8}$)|(^[0-9]{3,8}$)|(^\([0-9]{3,4}\)[0-9]{3,8}$)|(^0{0,1}13[0-9]{9}$)/
 });
 ```
 
-ÕâÑù¾Í¿ÉÒÔÍ¨¹ı data-rule="tm" À´ÑéÖ¤ÊÖ»úºÍ¹Ì»°ÁË¡£
+ÕâÑù¾Í¿ÉÒÔÍ¨¹ı `data-rule="tm"` À´ÑéÖ¤ÊÖ»úºÍ¹Ì»°ÁË¡£
 
 ### availdate.js¹«¿ª·½·¨
 
 #### ac.form(params);	ÃèÊö£ºËùÓĞĞèÒªÑéÖ¤µÄÇøÓò¶¼ĞèÒªµ÷ÓÃÕâ¸ö·½·¨
 
-```html
+```
 params²ÎÊıËµÃ÷£º
 {
     area: "body", // ĞèÒªÑéÖ¤µÄÇøÓò£¬Ö§³Ö±êÇ©Ãû³Æ£¬id£¬classÑ¡ÔñÆ÷£¬ÍÆ¼öid»òclass
@@ -137,7 +135,7 @@ params²ÎÊıËµÃ÷£º
 
 #### ac.addRule(params);	ÃèÊö£ºÍØÕ¹Ä¬ÈÏdata-rule±êÊ¶·û£¬ÍØÕ¹Ö®ºó£¬¿ÉÖ±½ÓÊ¹ÓÃ±êÊ¶·û´ú±í¸ÃÕıÔò±í´ïÊ½
 
-```html
+```
   params²ÎÊıËµÃ÷£º
   {
       // ÊôĞÔÃû³Æ±íÊ¾±êÊ¶·û£¬ÊôĞÔÖµ±íÊ¾ÕıÔò±í´ïÊ½£¬¿ÉÒÔÉèÖÃ¶à¸ö¡£
@@ -159,7 +157,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
@@ -278,7 +276,7 @@ params²ÎÊıËµÃ÷£º
 
 #### 2£©¸ß¼¶Ê¹ÓÃ
 
-##### 1¡¢×Ô¶¨ÒåÑéÖ¤´íÎóÌáÊ¾£¬Ö÷ÒªÊÇ±àĞ´singleError·½·¨
+##### 1¡¢×Ô¶¨ÒåÑéÖ¤´íÎóÌáÊ¾£¬Ö÷ÒªÊÇ±àĞ´`singleError`·½·¨
 
 ```html
 <!DOCTYPE html>
@@ -288,7 +286,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
@@ -319,7 +317,7 @@ params²ÎÊıËµÃ÷£º
 </html>
 ```
 
-##### 2¡¢Ã¿Ò»¸ö±íµ¥ÔªËØÑéÖ¤³É¹¦Ö®ºóÖ´ĞĞ×Ô¶¨Òåº¯Êı£¬Ö÷ÒªÊÇ±àĞ´singleSuccess·½·¨
+##### 2¡¢Ã¿Ò»¸ö±íµ¥ÔªËØÑéÖ¤³É¹¦Ö®ºóÖ´ĞĞ×Ô¶¨Òåº¯Êı£¬Ö÷ÒªÊÇ±àĞ´`singleSuccess`·½·¨
 
 ```html
 <!DOCTYPE html>
@@ -329,7 +327,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
@@ -364,7 +362,7 @@ params²ÎÊıËµÃ÷£º
 </html>
 ```
 
-##### 3¡¢ÔÚ±íµ¥ÑéÖ¤Ö®Ç°Ö´ĞĞ×Ô¶¨Òåº¯Êı£¬Ö÷ÒªÊÇ±àĞ´startCheck·½·¨
+##### 3¡¢ÔÚ±íµ¥ÑéÖ¤Ö®Ç°Ö´ĞĞ×Ô¶¨Òåº¯Êı£¬Ö÷ÒªÊÇ±àĞ´`startCheck`·½·¨
 
 ```html
 <!DOCTYPE html>
@@ -374,7 +372,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
@@ -413,7 +411,7 @@ params²ÎÊıËµÃ÷£º
 </html>
 ```
 
-##### 4¡¢×Ô¶¨Òådata-rule±êÊ¶·û£¬±ÈÈçÑéÖ¤ÊÖ»ú»ò¹Ì»°£ºdata-rule="tm"   ±¾ÉíÊÇÃ»ÓĞÕâ¸ö±êÊ¶µÄ
+##### 4¡¢×Ô¶¨Òå`data-rule`±êÊ¶·û£¬±ÈÈçÑéÖ¤ÊÖ»ú»ò¹Ì»°£º`data-rule="tm"`   ±¾ÉíÊÇÃ»ÓĞÕâ¸ö±êÊ¶µÄ
 
 ```html
 <!DOCTYPE html>
@@ -423,7 +421,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
@@ -457,7 +455,7 @@ params²ÎÊıËµÃ÷£º
 
 #### 3£©»¹¿ÉÒÔÕâÑùÓÃ£¡
 
-##### 1¡¢±ÈÈçÅĞ¶ÏÁ½´ÎÃÜÂëÊäÈëÊÇ·ñÒ»Ñù£¬Ö÷ÒªÓÃµ½data-sync="Í¬²½µÄnameÃû³Æ"£¬Í¬²½ÑéÖ¤
+##### 1¡¢±ÈÈçÅĞ¶ÏÁ½´ÎÃÜÂëÊäÈëÊÇ·ñÒ»Ñù£¬Ö÷ÒªÓÃµ½`data-sync="Í¬²½µÄnameÃû³Æ"`£¬Í¬²½ÑéÖ¤
 
 ```html
 <!DOCTYPE html>
@@ -467,7 +465,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
@@ -496,7 +494,7 @@ params²ÎÊıËµÃ÷£º
 </html>
 ```
 
-##### 2¡¢Èç¹û²»Ìî£¬ÔòºöÂÔÑéÖ¤£¬Èç¹ûÌîĞ´ÔòÖ´ĞĞÑéÖ¤£¬Ö÷ÒªÓÃµ½data-haved="true"ÊôĞÔ
+##### 2¡¢Èç¹û²»Ìî£¬ÔòºöÂÔÑéÖ¤£¬Èç¹ûÌîĞ´ÔòÖ´ĞĞÑéÖ¤£¬Ö÷ÒªÓÃµ½`data-haved="true"`ÊôĞÔ
 
 ```html
 <!DOCTYPE html>
@@ -506,7 +504,7 @@ params²ÎÊıËµÃ÷£º
     <title></title>
     <meta charset="utf-8" />
     <!--ÒıÈë²å¼ş-->
-    <script type="text/javascript" src="availdate.js"></script>
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
 </head>
 <body>
     <form id="frm">
