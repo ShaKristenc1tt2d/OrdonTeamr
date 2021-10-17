@@ -10,11 +10,11 @@
 
 ## 来先看看例子
 
-* [实例一](http://availdate.oschina.mopaasapp.com/)
-* [实例二](http://availdate.oschina.mopaasapp.com/demo2.html)
-* [实例三](http://availdate.oschina.mopaasapp.com/demo3.html)
-* [实例四](http://availdate.oschina.mopaasapp.com/demo4.html)
-* [实例五](http://availdate.oschina.mopaasapp.com/demo5.html)
+>* [实例一](http://availdate.oschina.mopaasapp.com/)
+>* [实例二](http://availdate.oschina.mopaasapp.com/demo2.html)
+>* [实例三](http://availdate.oschina.mopaasapp.com/demo3.html)
+>* [实例四](http://availdate.oschina.mopaasapp.com/demo4.html)
+>* [实例五](http://availdate.oschina.mopaasapp.com/demo5.html)
 
 
 ## 更新记录
@@ -50,47 +50,47 @@
 ### ·availdate.js·自定义标签属性：
 
 
-> * `data-rule`：必填，这个属性是整个验证插件的基础。注意：需要验证的插件必须填写该属性，但除了指定`data-sync`属性以外。
-> * `data-nullmsg`： 选填，当表单为空的时候提示信息。
-> * `data-errmsg`	： 选填，当表单验证失败的时候提示信息。
-> * `data-sucmsg`：选填，当表单执行成功的时候提示信息。
-> * `data-sync`：选填，同步验证，一般用于密码的验证。比如，第一次输入密码之后，然后第二次密码需要和第一次输入密码进行同步验证。 
-> * `data-haved`：选填，跳过为空验证，只当有值的时候才会执行验证。
+>* `data-rule`：必填，这个属性是整个验证插件的基础。注意：需要验证的插件必须填写该属性，但除了指定`data-sync`属性以外。
+>* `data-nullmsg`： 选填，当表单为空的时候提示信息。
+>* `data-errmsg`	： 选填，当表单验证失败的时候提示信息。
+>* `data-sucmsg`：选填，当表单执行成功的时候提示信息。
+>* `data-sync`：选填，同步验证，一般用于密码的验证。比如，第一次输入密码之后，然后第二次密码需要和第一次输入密码进行同步验证。 
+>* `data-haved`：选填，跳过为空验证，只当有值的时候才会执行验证。
 
 
 ### ·availdate.js·内置默认验证规则：
 
 
-> * `*`：必填，不能为空。例子：`data-rule="*"`
-> * `*6-16`：必填，不能为空，且必须是6到16个字符。例子：`data-rule="*3-12"`，`data-rule="*5-10"`。分别表示：必填，3到12个字符；必填，5到10个字符。
-> * `n`：必填，不能为空，且必须是正整数。例子：`data-rule="n"`
-> * `n6-16`：必填，不能为空，且必须是6到16个字符例子：`data-rule="n3-12"`
-> * `s`：必填，不能为空，且不能包含特殊字符的字符串。例子：`data-rule="s"`
-> * `s6-16`：必填，不能为空，且必须是6到16位的非包含特殊字符的字符串。例子：`data-rule="s6-16"`
-> * `p`：必填，不能为空，且必须是正确的邮政编码。例子：`data-rule="p"`
-> * `m`：必填，不能为空，且必须是正确的手机号码。例子：`data-rule="m"`
-> * `e`：必填，不能为空，且必须是电子邮箱。例子：`data-rule="e"`
-> * `url`：必填，不能为空，且必须是网址格式。例子：`data-rule="url"`
-> * `date`：必填，不能为空，且必须是日期格式。例子：`data-rule="date"`
-> * `zh`：必填，不能为空，且必须是中文。例子：`data-rule="zh"`
-> * `dword`：必填，不能为空，且必须填写双字节字符。例子：`data-rule="dword"`
-> * `money`：必填，不能为空，且必须是金额类型。例子：`data-rule="money"`
-> * `ipv4`：必填，不能为空，且必须是IPv4地址。例子：`data-rule="ipv4"`
-> * `ipv6`：必填，不能为空，且必须是IPv6地址。例子：`data-rule="ipv6"`
-> * `num`：必填，不能为空，必须是数值类型，例如正整数，正浮点数，小数。例子：`data-rule="num"`
-> * `qq`：必填，不能为空，必须是qq号码。例子：`data-rule="qq"`
-> * `idcard`：必填，不能为空，必须是身份证号码。例子：`data-rule="idcard"`
-> * `time`：必填，不能为空，必须是时间格式号码，如：10:23:60。例子：`data-rule="time"`
-> * `t`：必填，不能为空，必须是固话号码，如：0760-88809987。例子：`data-rule="t"`
-> * `tm`：必填，不能为空，必须是手机或者固话号码，如：18676265646，0760-88809987。例子：`data-rule="tm"`
+>* `*`：必填，不能为空。例子：`data-rule="*"`
+>* `*6-16`：必填，不能为空，且必须是6到16个字符。例子：`data-rule="*3-12"`，`data-rule="*5-10"`。分别表示：必填，3到12个字符；必填，5到10个字符。
+>* `n`：必填，不能为空，且必须是正整数。例子：`data-rule="n"`
+>* `n6-16`：必填，不能为空，且必须是6到16个字符例子：`data-rule="n3-12"`
+>* `s`：必填，不能为空，且不能包含特殊字符的字符串。例子：`data-rule="s"`
+>* `s6-16`：必填，不能为空，且必须是6到16位的非包含特殊字符的字符串。例子：`data-rule="s6-16"`
+>* `p`：必填，不能为空，且必须是正确的邮政编码。例子：`data-rule="p"`
+>* `m`：必填，不能为空，且必须是正确的手机号码。例子：`data-rule="m"`
+>* `e`：必填，不能为空，且必须是电子邮箱。例子：`data-rule="e"`
+>* `url`：必填，不能为空，且必须是网址格式。例子：`data-rule="url"`
+>* `date`：必填，不能为空，且必须是日期格式。例子：`data-rule="date"`
+>* `zh`：必填，不能为空，且必须是中文。例子：`data-rule="zh"`
+>* `dword`：必填，不能为空，且必须填写双字节字符。例子：`data-rule="dword"`
+>* `money`：必填，不能为空，且必须是金额类型。例子：`data-rule="money"`
+>* `ipv4`：必填，不能为空，且必须是IPv4地址。例子：`data-rule="ipv4"`
+>* `ipv6`：必填，不能为空，且必须是IPv6地址。例子：`data-rule="ipv6"`
+>* `num`：必填，不能为空，必须是数值类型，例如正整数，正浮点数，小数。例子：`data-rule="num"`
+>* `qq`：必填，不能为空，必须是qq号码。例子：`data-rule="qq"`
+>* `idcard`：必填，不能为空，必须是身份证号码。例子：`data-rule="idcard"`
+>* `time`：必填，不能为空，必须是时间格式号码，如：10:23:60。例子：`data-rule="time"`
+>* `t`：必填，不能为空，必须是固话号码，如：0760-88809987。例子：`data-rule="t"`
+>* `tm`：必填，不能为空，必须是手机或者固话号码，如：18676265646，0760-88809987。例子：`data-rule="tm"`
 
 
 ### 还不够？
 
 如果上面的还不能满足你，不用担心，`data-rule`也支持万能的正则表达式，如：
 
-> * `data-rule="/\w{3,6}/i"`    表示3-6位字符
-> * `data-rule="/^\d$/"`       只允许一个数字
+>* `data-rule="/\w{3,6}/i"`    表示3-6位字符
+>* `data-rule="/^\d$/"`       只允许一个数字
 
 注意：如果`data-rule`传入的是正则表达式，则必须用` / / `包住。
 
