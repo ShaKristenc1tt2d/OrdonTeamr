@@ -145,7 +145,7 @@ ac.addRule({
 
 ### `availdate.js`公开方法
 
-#### `ac.form(params);`	描述：所有需要验证的区域都需要调用这个方法，该方法返回验证核心原型`Winu`，可以通过返回对象调用`beginCheck`触发执行验证
+#### `ac.form(params);`	描述：所有需要验证的区域都需要调用这个方法，该方法返回验证核心原型`Winu`，可以通过返回对象调用`beginCheck();`方法触发执行验证
 
 ```
 params参数说明：
