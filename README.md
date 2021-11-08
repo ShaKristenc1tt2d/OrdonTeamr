@@ -302,10 +302,7 @@ params参数说明：
         // 对，就这么简单就初始化了。
         ac.form({
             area: "#frm",   // 验证区域，支持标签，id，class，推荐使用id或者class
-            btn: "#btn",     // 触发验证的按钮或者元素，支持标签，id，class，推荐使用id或者class
-            endSuccess: function (data) {
-                  alert("全部验证成功啦！！！！！！" + JSON.stringify(data));
-            }
+            btn: "#btn"     // 触发验证的按钮或者元素，支持标签，id，class，推荐使用id或者class
         });
 
     </script>
@@ -450,7 +447,56 @@ params参数说明：
 </html>
 ```
 
-##### 4、自定义`data-rule`标识符，比如验证手机或固话：`data-rule="tm"`   本身是没有这个标识的
+##### 4、在表单验证通过所有验证之后执行自定义函数，主要是编写`endSuccess`方法
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <!--引入插件-->
+    <script type="text/javascript" src="availdate-v1.0.1.js"></script>
+</head>
+<body>
+    <form id="frm">
+        <h3>必填验证：data-rule="*"</h3>
+        姓名：   <input type="text" data-rule="*" data-nullmsg="姓名不能为空" data-errmsg="验证失败" data-sucmsg="" />
+
+        <br />
+        <br />
+        <input type="button" id="btn" value="提交" />
+    </form>
+    <script type="text/javascript">
+
+        // 对，就这么简单就初始化了。
+        ac.form({
+            area: "#frm",   // 验证区域，支持标签，id，class，推荐使用id或者class
+            btn: "#btn",     // 触发验证的按钮或者元素，支持标签，id，class，推荐使用id或者class
+            startCheck: function () {
+                // 自定义验证之前执行函数
+                alert("开始验证啦！一般用于加载！");
+            },
+            singleError: function (e, msg) {
+                // 自定义弹窗格式###############
+                alert("我是自定义弹窗格式：错误消息：" + msg);
+            },
+            singleSuccess: function (e, msg) {
+                // 验证单个成功之后提示信息
+                alert("我自己通过验证了！别人我不知道！");
+            },
+            endSuccess: function (data) {
+                  alert("我是自定义验证成功的弹窗！！！！"+JSON.stringify(data));
+            }
+        });
+
+    </script>
+</body>
+</html>
+```
+
+##### 5、自定义`data-rule`标识符，比如验证手机或固话：`data-rule="tm"`   本身是没有这个标识的
 
 ```html
 <!DOCTYPE html>
