@@ -21,7 +21,8 @@
 
 ```
 ### 2015年11月09日  availdate-1.0.2.js 更新细节：
-* [新增] 新增核心方法beginCheck()，可主动触发验证脚本，通常可以用于Window页面触发Frame页面的验证，主要是通过SendEvent，addEventListener配套使用，或者api.execScript()使用，推荐前者
+* [新增] 新增核心方法beginCheck()，可主动触发验证脚本。
+* [补上] 通常可以用于Window页面触发Frame页面的验证，主要是通过SendEvent，addEventListener配套使用，或者api.execScript()使用，推荐前者
 * [更新] 更新文档
 * [更新] 更新验证按钮元素找不到时提示错误为警告提示！
 
