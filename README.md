@@ -147,42 +147,26 @@ ac.addRule({
 
 ### `availdate.js`公开方法
 
-#### `ac.form(params);`	描述：所有需要验证的区域都需要调用这个方法，该方法返回验证核心原型`Winu`，可以通过返回对象调用`beginCheck();`方法触发执行验证
+#### `var v=ac.form(params);`	描述：所有需要验证的区域都需要调用这个方法，该方法返回验证核心原型`Winu`，可以通过返回对象调用`beginCheck();`方法触发执行验证
 
-```
-params参数说明：
-{
-    area: "body", // 需要验证的区域，支持标签名称，id，class选择器，推荐id或class
-    btn: "",  // 点击触发验证的按钮 ，支持标签名称，id，class选择器
-    startCheck: function () {   
-        // 开始检查执行函数，一般用户动画效果，比如加载中，提交中，验证中。
-    },
-    singleSuccess: function (e, msg) {    
-       // 单个表单验证成功执行函数，可以通过这个方法写一些小特效或者处理方法
-       // e：当前验证的对象，msg：提示信息。
-    }
-    singleError: function (e, msg) { 
-        // 单个表单验证失败执行函数
-        // e：当前验证的对象，msg：提示信息。
+`params`参数说明：
 
-        alert(msg);
-    },
-    endSuccess: function (data) {  // 全部验证成功执行函数
-		// data 返回序列化的参数
-    }
-}
-```
+>* `area`：需要验证的区域
+>* `btn`：触发验证的按钮，支持标签，`id`，`class`，推荐用`id`或者`class`
+>* `startCheck: function () {}`：开始验证之前执行函数，通常用于加载中，提交中这样的动画
+>* `singleSuccess: function (e, msg) {}`：单个验证成功时执行函数，`e`返回正在验证的表单对象，`msg`标识提示消息
+>* `singleError: function (e, msg) { }`：单个验证失败时执行函数，`e`返回正在验证的表单对象，`msg`标识提示消息
+>* `endSuccess: function (data) {}`：全部验证成功之后执行函数，`data`是返回的`JSON`格式对象
+
+`v`返回对象说明：
+>* `beginCheck`：我们经常是通过按钮点击触发验证，如果想通过其他机制触发验证也可以通过`v.beginCheck()`主动触发验证，如果还想验证成功之后执行另外的函数，可以通过`b.beginCheck(function(){});`
 
 #### `ac.addRule(params);`	描述：拓展默认`data-rule`标识符，拓展之后，可直接使用标识符代表该正则表达式
 
-```
-  params参数说明：
-  {
-      // 属性名称表示标识符，属性值表示正则表达式，可以设置多个。
-      "tm":/((15)\d{9})|((13)\d{9})|((18)\d{9})|(0[1-9]{2,3}\-?[1-9]{6,7})/i     
-  }
+`params`参数说明：
 
-```
+>* `属性名`：属性名是定义自定义`标识符`，可以供`data-rule`使用
+>* `属性值`：属性值必须是一个正则表达式，不能是字符串，`data-rule`内部就是通过`标识符`找到对应的正则表达式进行验证的。
 
 
 ###  介绍了那么多，那该如何在项目中使用呢？
