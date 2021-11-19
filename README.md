@@ -147,6 +147,7 @@ ac.addRule({
 
 ### `availdate.js`公开方法
 
+
 #### `var v=ac.form(params);`	描述：所有需要验证的区域都需要调用这个方法，该方法返回验证核心原型`Winu`，可以通过返回对象调用`beginCheck();`方法触发执行验证
 
 `params`参数说明：
@@ -160,6 +161,7 @@ ac.addRule({
 
 `v`返回对象说明：
 >* `beginCheck`：我们经常是通过按钮点击触发验证，如果想通过其他机制触发验证也可以通过`v.beginCheck()`主动触发验证，如果还想验证成功之后执行另外的函数，可以通过`b.beginCheck(function(){});`
+
 
 #### `ac.addRule(params);`	描述：拓展默认`data-rule`标识符，拓展之后，可直接使用标识符代表该正则表达式
 
