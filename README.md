@@ -20,6 +20,9 @@
 ## 更新记录
 
 ```
+### 2015年11月16日  availdate-1.0.2.js 更新细节：
+* [更新] 更新核心方法beginCheck()，支持序列化对象的获取
+
 ### 2015年11月09日  availdate-1.0.2.js 更新细节：
 * [新增] 新增核心方法beginCheck()，可主动触发验证脚本,可以传入方法，如果传入，则验证成功后执行传入方法，而不是只想endSuccess中的方法
 * [补上] 通常可以用于Window页面触发Frame页面的验证，主要是通过SendEvent，addEventListener配套使用，或者api.execScript()使用，推荐前者
@@ -160,7 +163,7 @@ ac.addRule({
 >* `endSuccess: function (data) {}`：全部验证成功之后执行函数，`data`是返回的`JSON`格式对象
 
 `v`返回对象说明：
->* `beginCheck`：我们经常是通过按钮点击触发验证，如果想通过其他机制触发验证也可以通过`v.beginCheck()`主动触发验证，如果还想验证成功之后执行另外的函数，可以通过`b.beginCheck(function(){});`
+>* `beginCheck`：我们经常是通过按钮点击触发验证，如果想通过其他机制触发验证也可以通过`v.beginCheck()`主动触发验证，如果还想验证成功之后执行另外的函数，可以通过`b.beginCheck(function(data){});`
 
 
 #### `ac.addRule(params);`	描述：拓展默认`data-rule`标识符，拓展之后，可直接使用标识符代表该正则表达式
