@@ -1,4 +1,4 @@
-# `avalidate.js`：为[APICloud](http://www.apicloud.com/)表单验证而生，但不仅仅限于此！
+# `avalidate-v2.0.0.js 重构版本`：为[APICloud](http://www.apicloud.com/)表单验证而生，但不仅仅限于此！
 
 * 作者：`新生帝`
 * QQ：`8020292`
@@ -20,6 +20,9 @@
 ## 更新记录
 
 ```
+### 2015年12月17日  avalidate-2.0.0 Beta.js 更新细节：
+* [更新] 重构avalidate.js
+
 ### 2015年11月16日  availdate-1.0.2.js 更新细节：
 * [更新] 更新核心方法beginCheck()，支持序列化对象的获取
 
