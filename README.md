@@ -1,12 +1,10 @@
-# `avalidate-v2.0.0.js 重构版本`：为[APICloud](http://www.apicloud.com/)表单验证而生，但不仅仅限于此！
+# `avalidate-v2.0.0.js 重构版本`：移动表单验证插件。
 
-* 作者：`新生帝`
+* 作者：`百小僧`
 * QQ：`8020292`
 * QQ交流群：`18863883`
-* 技术支持：[中山赢友网络科技有限公司](http://www.winu.net/)
+* 技术支持：[百签软件有限公司](http://www.baisoft.org/)
 
-* [APICloud](http://www.apicloud.com/)是一个非常好的一个APP开发平台！[APICloud官网](http://www.apicloud.com/)
-* [论坛回帖地址](http://community.apicloud.com/bbs/forum.php?mod=viewthread&tid=17310&page=1&extra=#pid95308) 
 
 ## 来先看看例子（1.0版本）
 
@@ -63,7 +61,6 @@
 * [新增] 整个项目基础原型
 ```
 
-非常感谢流浪男版主带给我们非常好的[AUI](http://www.auicss.com/)布局框架，让我们的开发速度再一次的升华！但是，想更快的开发，更省代码吗？`availdate.js`能帮到你！
 
 ## `availdate.js`是什么呢？
 
@@ -73,8 +70,6 @@
 `availdate.js`是一个纯`javascript`编写的一个验证脚本插件，不依赖于任何第三方框架，直接在页面中使用即可，她具有跨平台，小巧，拓展性极强和完全开源等的特点！你只需要短短的代码，甚至不需要代码就可以实现完整的验证操作了，她还内置了大量的常用的验证库，大大的提升了我们的开发速度。
 
 `availdate.js`第一个版本是本人花了3个多小时编写的，可能在使用过程成会出现遗漏或者未能考虑到的bug，请及时反馈，定当全力修复bug。
-
-[APICloud](http://www.apicloud.com/)会越来越美好，因为有他们，你们，我们的共同努力！让我们一起见证一个孩子的创世之路吧！
 
 
 ### `availdate.js`自定义标签属性：
@@ -611,10 +606,8 @@ ac.addRule({
 
 * 更多例子由你来发现！！！
 
-* `availdate.js`为[APICloud](http://www.apicloud.com/)而生，但不仅仅限于此！
-
-* `availdate.js`开源地址：[Github](http://git.oschina.net/winu.net/availdate.js)
+* `availdate.js`开源地址：[Github](http://git.oschina.net/baisoft_org/availdate.js)
 
 * QQ交流群：`18863883`
 
-* 技术支持：[中山赢友网络科技有限公司](http://www.winu.net/)
+* 技术支持：[百签软件有限公司](http://www.baisoft.org/)
