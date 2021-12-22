@@ -607,7 +607,3 @@ ac.addRule({
 * 更多例子由你来发现！！！
 
 * `availdate.js`开源地址：[Github](http://git.oschina.net/baisoft_org/availdate.js)
-
-* QQ交流群：`18863883`
-
-* 技术支持：[百签软件有限公司](http://www.baisoft.org/)
